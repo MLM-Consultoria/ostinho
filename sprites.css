@@ -1,0 +1,8 @@
+.sprites{ background:url("sprites.png") top left no-repeat; }
+.sprites_r1_c10{ width:159px; height:63px; background-position:-10px -10px; }
+.sprites_r2_c2{ width:150px; height:45px; background-position:-10px -83px; }
+.sprites_r4_c7{ width:32px; height:33px; background-position:-10px -138px; }
+.sprites_r5_c3{ width:28px; height:28px; background-position:-52px -138px; }
+.sprites_r7_c11{ width:19px; height:23px; background-position:-90px -138px; }
+.sprites_r6_c5{ width:40px; height:23px; background-position:-119px -138px; }
+

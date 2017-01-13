@@ -1,0 +1,27 @@
+.sprites{ background:url("../img/sprites.png") top left no-repeat; }
+.logo-mlm{ width:154px; height:63px; background-position:-10px -10px; }
+.logo{ width:148px; height:40px; background-position:-10px -83px; margin: 2% 10% 0 10%;}
+.sprites_r8_c2{ width:33px; height:33px; background-position:-10px -133px; }
+.sprites_r8_c5{ width:29px; height:28px; background-position:-53px -133px; }
+.sprites_r8_c10{ width:40px; height:23px; background-position:-92px -133px; }
+.sprites_r9_c8{ width:23px; height:21px; background-position:-10px -176px; }
+.navbar{background-color: #000000}
+.bg{ background:url("../img/Background.jpg") top left no-repeat;  background-repeat: no-repeat;  background-size: 100% 100%;}
+html{height: 100%;}
+.copyright { min-height:40px; background-color:#000000;}
+.copyright p { text-align:center; color:#FFF; padding:10px 0; margin-bottom:0px;}
+.footerleft { margin-top:50px; padding:0 36px; }
+.footerleft p {font-size:16px; font-weight:700; color: #ffffff;}
+footer { background-color:#000000; min-height:40%; font-family: 'Open Sans', sans-serif; }
+.footerleft p i { width:20px; color:#999;}
+.heading7 { font-size:21px; font-weight:700; color:#d9d6d6; margin-bottom:22px;}
+
+
+.paddingtop-bottom {  margin-top:50px;}
+ 
+ 
+
+ .bottom_ul { list-style-type:none; float:right; margin-bottom:0px;}
+ .bottom_ul li { float:left; line-height:40px;}
+ .bottom_ul li:after { content:"/"; color:#FFF; margin-right:8px; margin-left:8px;}
+ .bottom_ul li a { color:#FFF;  font-size:12px;}

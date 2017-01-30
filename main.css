@@ -1,0 +1,326 @@
+
+
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+
+/*
+|=================================================================================
+|=================================================================================
+|=================================================================================
+|=================================================================================
+|=================================================================================
+|    BASE
+|=================================================================================
+*/
+
+.sprites{ background:url("../img/sprites.png") top left no-repeat; }
+.logo-mlm{ width:154px; height:63px; background-position:-10px -10px; }
+.logo{ width:148px; height:40px; background-position:-10px -83px; margin: 2% 10% 0 10%;}
+.sprites_r8_c2{ width:33px; height:33px; background-position:-10px -133px; }
+.sprites_r8_c5{ width:29px; height:28px; background-position:-53px -133px; }
+.sprites_r8_c10{ width:40px; height:23px; background-position:-92px -133px; }
+.sprites_r9_c8{ width:23px; height:21px; background-position:-10px -176px; }
+.navbar{background-color: #000000; border-color: #000000}
+html{height: 100%;}
+.bg{ background:url("../img/Background.jpg") top left no-repeat;  background-repeat: no-repeat;  background-size: 100% 100%;}
+.copyright {  background-color:#000000;}
+.copyright p { text-align:center; color:#FFF; padding:1% 0; margin-bottom:0px;}
+.menu-form-home {background-color: #000000;}
+
+
+
+/*
+|=================================================================================
+|=================================================================================
+|=================================================================================
+|=================================================================================
+|=================================================================================
+|    LAYOUT
+|---------------------------------------------------------------------------------
+*/
+
+
+/* ==========================================================================
+   *
+   * mNNNNNNNNm     
+   * y````````y   
+   * y        s  
+   * y        s  
+   * y        s  
+   * y        s  
+   * d+++--+++d 
+   * NMMN//MMMN  
+   *
+   *
+   * PHONE ONLY !!!
+   ========================================================================== */
+
+@media all and (max-width: 768px) {
+	footer { background-color:#000000; text-align: center;}
+	.menu-form-home {text-align: center;}
+	.menu-form-home	p { color: #ffffff;}
+	.footerleft p { color: #ffffff;}
+	.heading7{color:#ffffff; font-size: 14px;}
+	.sprites_r8_c2{width: 50%; margin: 0 auto;}
+	.sprites_r8_c5{display: none;}
+	.sprites_r8_c10{display: none;}
+	.logo-mlm{margin-left: 20%}
+}
+
+}/*/mediaquery*/
+
+/* ==========================================================================
+   *
+   * 
+   * +yyyyhhhhdddddddddms
+   * sh-..............-Nd      mmddddddddddddddddddddddddddmm
+   * sd`              .Md      M+                          /M
+   * sd`              .Md      M+                          /M
+   * sd`              .Md      M+                          /M
+   * sd`              .Md      M+                          /M
+   * yd`              .Md      M+                          /M
+   * yd`              .Md   +  M+                          /M
+   * yd`              .Md      MmddddddddddddddddddddddddddmM
+   * yd.              .Md      mNNNNNNNNNNNNNNNNNNNNNNNNNNNNm
+   * yd.              .Md      ```````````:dddddd/```````````
+   * sdhdddddddmmmmmmmmNy                /dMMMMMMm+          
+   *-------------------------------------------------------------------------
+   * TABLET and  UP
+   ========================================================================== */
+
+@media all and (min-width: 768px) {
+	footer { background-color:#000000; text-align: center;}
+	.menu-form-home {text-align: center;}
+	.menu-form-home	p { color: #ffffff;}
+	.footerleft p { color: #ffffff;}
+	.heading7{color:#ffffff; font-size: 14px;}
+	.sprites_r8_c2{width: 50%; margin: 0 auto;}
+	.sprites_r8_c5{display: none;}
+	.sprites_r8_c10{display: none;}
+	.logo-mlm{margin-left: 20%}
+
+}/*/mediaquery*/
+
+/* ==========================================================================
+   *
+   *
+   * mmddddddddddddddddddddddddddmm
+   * M+                          /M
+   * M+                          /M
+   * M+                          /M
+   * M+                          /M
+   * M+                          /M
+   * M+                          /M
+   * MmddddddddddddddddddddddddddmM
+   * mNNNNNNNNNNNNNNNNNNNNNNNNNNNNm
+   * ```````````:dddddd/```````````
+   *           /dMMMMMMm+          
+   *-------------------------------------------------------------------------
+   * DESKTOP
+   ========================================================================== */
+
+@media all and (min-width: 980px) {
+
+.copyright p { text-align:center; color:#FFF; padding:1% 0; margin-bottom:0px;}
+.footerleft { margin-top:1%; padding:0 1%; }
+.footerleft p {font-size:13px; font-weight:700; color: #ffffff;}
+.footerleft p i { width:20px; color:#999;}
+.heading7 { font-size:21px; font-weight:700; color:#d9d6d6; margin-bottom:22px;}
+.menu-form-home {margin-top: 10%;}
+.bottom_ul { list-style-type:none; float:right; margin-bottom:0px;}
+.bottom_ul li { float:left; line-height:40px;}
+.bottom_ul li:after { color:#FFF; margin-right:8px; margin-left:8px;}
+.bottom_ul li a { color:#FFF;  font-size:12px;}
+.tel{text-align: center;}
+.menu-home li { font-family: 'Roboto', sans-serif; font-size:12px;}
+.menu-form-home p{font-family: 'Roboto', sans-serif; font-size:15px; color: #ffffff; padding: 5%;}
+.bt-search {padding-top: 5%;}
+.bt-search button {padding: 3%; float: center;}
+footer { background-color:#000000; min-height:10%;  position: absolute; right: 0; bottom: 0;left: 0;text-align: center;}
+
+
+}/*/mediaquery*/
+
+/* ==========================================================================
+   *
+   *
+   * mmddddddddddddddddddddddddddddddddddddmm
+   * M+                                    /M
+   * M+                                    /M
+   * M+                                    /M
+   * M+                                    /M
+   * M+                                    /M
+   * M+                                    /M
+   * MmddddddddddddddddddddddddddddddddddddmM
+   * mNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNm
+   * ````````````````:dddddd/````````````````
+   *             /dMMMMMMMMMMm+          
+   *-------------------------------------------------------------------------
+   * RUGE DESKTOP
+   ========================================================================== */
+
+@media all and (min-width: 1281px) {
+	.copyright {  background-color:#000000;}
+	.copyright p { text-align:center; color:#FFF; padding:1% 0; margin-bottom:0px;}
+	.footerleft { margin-top:1%; padding:0 1%; }
+	.footerleft p {font-size:13px; font-weight:700; color: #ffffff;}
+	.footerleft p i { width:20px; color:#999;}
+	.heading7 { font-size:13px; font-weight:700; color:#d9d6d6; margin-bottom:3%;}
+	.menu-form-home {background-color: #000000; margin-top: 5%;}
+	.bottom_ul { list-style-type:none; float:right; margin-bottom:0px;}
+	.bottom_ul li { float:left; line-height:40px;}
+	.bottom_ul li:after { color:#FFF; margin-right:8px; margin-left:8px;}
+	.bottom_ul li a { color:#FFF;  font-size:12px;}
+	.tel{text-align: center;}
+	.menu-home li { font-family: 'Roboto', sans-serif; font-size:13px;}
+	.menu-form-home p{font-family: 'Roboto', sans-serif; font-size:15px; color: #ffffff; padding: 5%;}
+	.bt-search {padding-top: 5%;}
+	.bt-search button {padding: 3%; float: center;}
+	footer { background-color:#000000; min-height:10%;  position: absolute; right: 0; bottom: 0;left: 0;text-align: center;}
+
+
+}/*/mediaquery*/
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow:none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
